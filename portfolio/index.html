@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan.Romero - Proyectos e información</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="min-h-screen bg-linear-to-b from-black via-sky-450 to-slate-700 text-white bg-fixed">
+    <header class=" flex justify-center">
+        <div class="bg-[url(/img/image-hero.jpg)] flex  h-56 w-full bg-cover bg-center mask-radial-from-60% mask-radial-to-90% flex-col justify-center p-10">
+            <h1 class="font-extrabold text-2xl">Juan.Romero</h1>
+            <p class="text-gray-300">Desarrollador de software</p>
+        </div>
+    </header>
+    <main class="sm:max-w-5xl mx-auto p-3">
+        <!---Stack-->
+        <section  id="stack-tecnologico" class=" flex flex-col gap-2 ">
+            <h1 class="text-xl font-semibold sm:ml-10 mx-auto">Stack Tecnológico 🤖 </h1>
+            <!---Tecnologías-->
+            <div id="tecnologias" class="grid grid-cols-1 gap-2 justify-center mx-auto border-purple-300 bg-gray-700 border-2 p-4 rounded-lg sm:grid-cols-4 sm:w-full h-auto">
+
+                <div class="flex border-4 rounded p-5 border-amber-200 bg-linear-to-l from-amber-300 via-amber-500 to-amber-600 sm:p-2 md:flex-col hover:scale-110 transition-transform ">
+                    <svg class="size-13">
+                        <use xlink:href="./assets/sprite.svg#html"/>
+                    </svg>
+                    <h2 class=" text-2xl mt-4 text-zinc-200">HTML</h2>
+                </div>
+                
+                <div class="flex border-4 rounded p-5 border-cyan-200 bg-linear-to-l from-cyan-300 via-cyan-500 to-cyan-600 sm:p-2 hover:scale-110 transition-transform md:flex-col">
+                    <svg class="size-13">
+                        <use xlink:href="./assets/sprite.svg#tailwind"/>
+                    </svg>
+                    <h2 class="text-2xl mt-4 text-zinc-200">Tailwind</h2>
+                </div>
+
+                <div class="flex border-4 rounded p-5 border-amber-200 bg-linear-to-l from-yellow-300 via-yellow-500 to-yellow-600 sm:p-2 hover:scale-110 transition-transform md:flex-col">
+                    <svg class="size-13">
+                        <use xlink:href="./assets/sprite.svg#javascript"/>
+                    </svg>
+                    <h2 class="text-2xl mt-4 text-zinc-200">JavaScript</h2>
+                </div>
+
+                <div class="flex border-4 rounded p-5 border-orange-200 bg-linear-to-l from-gray-900 to-orange-500 sm:p-2 hover:scale-110 transition-transform md:flex-col">
+                    <svg class="size-13">
+                        <use xlink:href="./assets/sprite.svg#mysql"/>
+                    </svg>
+                    <h2 class="text-2xl mt-4 text-zinc-200">MySQL</h2>
+                </div>
+
+            </div>
+        </section>
+        
+
+        
+        <section class="flex flex-col gap-2 sm:grid sm:grid-cols-2">
+            <!--Sobre mi-->
+            <div class="mt-2 flex flex-col gap-2">
+                <h1 class="text-xl font-semibold mx-auto sm:ml-10 "> Sobre mi ✍🏼</h1>
+                
+                <div class="flex flex-col gap-4 p-4 rounded-lg border-2 border-purple-300 bg-gray-700 ">
+                    <div class="flex justify-center h-80 mx-auto">
+                        <img src="/img/img-profile.png" alt="Foto de perfil" class="h-80 object-cover mask-radial-from-47% mask-radial-to-75% ">
+                    </div>
+
+                    <div class="flex gap-2 justify-center ">
+
+                        <!--Github-->
+                        <a class="flex size-12 p-2 bg-gray-600 items-center justify-center rounded-full hover:scale-110 transition-transform" 
+                        href="#">
+                            <svg width="30" height="30">
+                                <use xlink:href="./assets/sprite.svg#github"/>
+                            </svg>
+                        </a>
+
+                        <!--Twitter-->
+                        <a class="flex size-12 p-2 bg-black items-center justify-center rounded-full hover:scale-110 transition-transform" 
+                        href="#">
+                            <svg width="30" height="30">
+                                <use xlink:href="./assets/sprite.svg#x"/>
+                            </svg>
+                        </a>
+
+                        <!--Likedin-->
+                        <a class="flex size-12 p-2 bg-white items-center justify-center rounded-full hover:scale-110 transition-transform" 
+                        href="https://www.linkedin.com/in/juanromerocortes" target="_blank">
+                            <svg width="30" height="30">
+                                <use xlink:href="./assets/sprite.svg#linkedin"/>
+                            </svg>
+                        </a>
+
+                    </div>
+                    
+                    <article class="p-4">
+                        <h1 class="text-2xl font-bold mb-2">Juan.Romero</h1>
+                        <p class="text-gray-300 mb-4">Técnico en Sistemas Microinformáticos y Redes con especialización en desarrollo de software.
+                        Actualmente, estoy enfocado en el  <span class="font-bold">desarrollo Backend</span>, aprendizaje de  <span class="font-bold">arquitecturas MVC, gestión de bases de
+                        datos relacionales.</span>a <br> Destaco por mi  <span class="font-bold">gran capacidad de aprendizaje</span> autodidacta y mi actitud asertiva
+                        en entornos de equipo. <br>Siempre estoy buscando <span class="font-bold">aprender</span> nuevas tecnologías y  <span class="font-bold">mejorar mis habilidades</span> para ofrecer lo mejor en cada proyecto.</p>
+                    </article>
+                </div>  
+            </div> 
+            
+            <!--Roadmap Profesional-->
+            <div class="grid grid-cols-1 gap-2 sm:my-auto">
+                <div class="flex flex-col gap-2 mt-2">
+                    <h1 class="text-xl font-semibold mx-auto sm:ml-10 "> Roadmap profesional 🚀 </h1>
+
+                    <div class="gap-4 p-4 rounded-lg sm:flex-row border-2 border-purple-300 bg-gray-700 ">
+                        <article class="grid grid-cols-2 gap-4">
+                            
+                            <div class=" bg-slate-600 p-4 rounded-lg mx-auto w-fit hover:scale-110 transition-transform">
+                                <div class="flex size-15 p-2 bg-white items-center justify-center rounded-full mx-auto">
+                                    <svg class="size-15">
+                                        <use xlink:href="./assets/sprite.svg#aws"/>
+                                    </svg>
+                                </div>
+                                <h1 class="font-semibold text-center"> Preparación y certificación en AWS (Solutions Architect)</h1>
+                            </div>
+
+
+                            <div class=" bg-slate-600 p-4 rounded-lg mx-auto w-fit hover:scale-110 transition-transform">
+                                <div class="flex size-15 p-2 bg-white items-center justify-center rounded-full mx-auto">
+                                    <svg class="size-15">
+                                        <use xlink:href="./assets/sprite.svg#docker"/>
+                                    </svg>
+                                </div>
+                                <h1 class="text-center font-semibold">Dominar despliegues y arquitectura basada en contenedores con Docker </h1>
+                            </div>
+
+                        </article>
+                    </div>  
+                </div>
+                <!--Idiomas-->
+               <div class="flex flex-col gap-2">
+                    <h1 class="text-xl font-semibold mx-auto sm:ml-10 "> Idiomas 🇬🇧</h1>
+                    <div class="gap-4 p-4 rounded-lg sm:flex-row border-2 border-purple-300 bg-gray-700 ">
+                        <article class="flex-row gap-4">
+                            
+                            <div class=" bg-slate-600 p-4 rounded-lg mx-auto w-full h-fit m-2 hover:scale-x-105 transition-transform">
+                                <h1 class="font-semibold">Español</h1>
+                                <p class="text-gray-300">Nativo</p>
+                            </div>
+
+                            <div class=" bg-slate-600 p-4 rounded-lg mx-auto w-full h-fit m-2 hover:scale-105 transition-transform">
+                                <h1 class="font-semibold">Inglés</h1>
+                                <p class=" text-gray-300">Nivel B1 (Actualmente cursando por Cambridge)</p>
+                                <p class=""></p>
+                            </div>
+                                
+                            
+                        </article>
+                    </div>  
+               </div>
+
+               <div class="flex flex-col gap-2">
+                    <h1 class="text-xl font-semibold mx-auto sm:ml-10 "> Descarga o Visualiza mi CV aquí 👇🏼</h1>
+                    <div class="gap-4 p-4 rounded-lg sm:flex-row border-2 border-purple-300 bg-gray-700 ">
+                        <article class="flex gap-4 justify-center">
+
+                            <div class="bg-violet-400 w-25 h-10 rounded hover:scale-110 transition-transform flex items-center justify-center">
+                                <a href="/assets/docs/cv.pdf" target="_blank"> Ver CV </a>  
+                            </div>
+                            
+                            <div class="bg-violet-400 w-25 h-10 rounded hover:scale-110 transition-transform flex items-center justify-center">
+                                <a href="/assets/docs/cv.pdf" download target="_blank"> Descargar</a>  
+                            </div>
+                        </article>
+                    </div>  
+               </div>
+            </div>
+        </section>
+        
+    </main>
+    <!---Footer-->
+    <footer class="flex items-center justify-center p-4 mt-8 border-t border-gray-600">
+        <p>Proyecto Realizado de forma autodidacta por Juan.Romero</p>
+    </footer>
+</body>
+</html>
